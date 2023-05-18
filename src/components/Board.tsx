@@ -24,7 +24,80 @@ export function Board(props: BoardProps) {
                     console.log("1");
                 }}
             >
+                <Piece piece={!player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
                 <Piece piece={player ? "cross" : "circle"} />
+            </div >
+
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={!player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={!player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={!player ? "cross" : "circle"} />
+            </div >
+            <div id="1" className="flex justify-center items-center bg-cyan-100 h-40 w-40 border-4 border-black rounded-2xl 
+                    shadow-[-3px_6px_0_0_rgba(0,0,0)] cursor-pointer
+                        hover:bg-cyan-50 transition-colors"
+                onClick={() => {
+                    console.log("1");
+                }}
+            >
+                <Piece piece={!player ? "cross" : "circle"} />
             </div >
         </div >
     );
