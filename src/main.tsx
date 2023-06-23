@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import { GamePage } from './Pages/GamePage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/game",
-    element: <App />,
+    path: "/singleplayer",
+    element: <GamePage />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
