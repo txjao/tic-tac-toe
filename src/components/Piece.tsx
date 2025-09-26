@@ -1,14 +1,22 @@
 import circle from "../assets/circle.svg";
 import cross from "../assets/cross.svg";
+import { PieceEnum } from "../model/piece.enum";
 
 interface PieceProps {
-    piece: boolean | null;
+    piece: string | null;
 }
 
 export function Piece(props: PieceProps) {
-
+    
     function handlePiece(): string {
-        return props.piece ? cross : circle
+        switch (props.piece) {
+            case PieceEnum.CIRCLE:
+                return circle;
+            case PieceEnum.CROSS:
+                return cross;
+            default:
+                return ""
+        }
     }
 
     return (

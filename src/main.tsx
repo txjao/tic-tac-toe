@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import { GamePage } from './Pages/GamePage.tsx';
+import { PieceProvider } from './contexts/PieceProvider.tsx';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,11 @@ const router = createBrowserRouter([
     element: <GamePage />,
   },
 ]);
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <PieceProvider>
+      <RouterProvider router={router} />
+    </PieceProvider>
   </React.StrictMode>,
 )

@@ -1,7 +1,7 @@
 import { Piece } from "./Piece";
 
 interface PieceProps {
-    piece: boolean | null; // null é a celula vazia
+    piece: string | null; // null é a celula vazia
     onClick: () => void
     teste: number
 }
